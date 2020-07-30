@@ -1,0 +1,4 @@
+A pull request is a contribution by another member. The owner can approve or reject it.
+Pull requests can be additions or deletions.
+Each pull request writes it into a fork of the project, which is a copy of the repo on your own account.
+Otherwise it's just like a commit.
