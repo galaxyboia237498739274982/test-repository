@@ -1,0 +1,56 @@
+yeet = input("can you beat the kindergarten test?")
+score = 0
+if yeet == ("yes"):
+    print("let's go!")
+else:
+    print("fine your still going to do it")
+
+x = int(input("what's 1+1?"))
+x = int(x)
+if x == 2:
+    print("yes correct")
+    score = score + 20
+
+else:
+    print("sorry you are wrong")
+
+y = int(input("what's 2+2?"))
+y = int(y)
+if y == 4:
+    print("yes correct")
+    score = score + 20
+else:
+    print("sorry you are wrong")
+
+z = int(input("what's 3+3?"))
+z = int(z)
+if z == 6:
+    print("yes correct")
+    score = score + 20
+else:
+    print("sorry you are wrong")
+
+w = int(input("what's 4+4?"))
+w = int(w)
+if w == 8:
+    print("yes correct")
+    score = score + 20
+else:
+    print("sorry you are wrong")
+
+g = int(input("what's 5+5?"))
+g = int(g)
+if g == 10:
+    print("yes correct")
+    score = score + 20
+else:
+    print("sorry you are wrong")
+
+print("you have completed the test.")
+
+print("your score for the test was", score)
+
+if score == 100:
+    print("Wow onto the next level!")
+if score <= 60:
+    print("you need some more practice")
